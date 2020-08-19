@@ -1,10 +1,5 @@
 /*
- * Consigne : récupérer tous les id de contrat par récursion. 
- * 
- * Notes :
- * - On part du principe, qu'on est placé au lancement sur la base de l'objet, donc l'id "DOSSIER"
- * - On doit utiliser la recursion, car y'a un piège, y'a un sous établissement sous un établissement, une boucle normale serait galère
- * à mettre en place.
+ * Récupérer tous les id de contrat par récursion. 
  */
 
 var obj = {
